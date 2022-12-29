@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+$ff-header: 'DM Serif Display';
+$ff-main: 'Montserrat';
+
+$primary-color: #A41108;
+$secondry-color: #EDCA82;
+$black-color: #1A1A1A;
+$white-color: #FFFFFF;
+
+
+.ps-0{
+    padding-left: 0px !important;
+}
+.pe-0{
+    padding-left: 0px !important;
+}
+
+/* top header css start here */
+.top-header{
+    align-items: center;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Serif';
+}
+.logo-text{
+    margin-left: 10px;
+}
+.logo-text h1{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.logo-text p{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+.top-connect{
+    width: 248px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: $black-color;
+    border: 2px solid $secondry-color;
+    padding: 11px 18px 11px 20px;
+}
+.top-connect i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.top-connect-text p{
+    font-family: $ff-header;
+    font-size: 14px;
+    color: $black-color;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.top-connect-text h5{
+    font-family: $ff-header;
+    font-size: 18px;
+    color: $black-color;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.top-connect:hover{
+    color: $primary-color;
+    border-color: $primary-color;
+}
+.top-connect:hover p{
+    color: $primary-color;
+}
+.top-connect:hover h5{
+    color: $primary-color;
+}
+.whatsapp .top-connect{
+    width: 100%;
+}
+.whatsapp .top-connect:hover{
+    color: #4FCE5D;
+    border-color: #4FCE5D;
+}
+.whatsapp .top-connect i{
+    margin-right: 0 !important;
+}
+/* top header css end here */
+
+/* menu css start here */
+.menu{
+    background: $secondry-color;
+    height: 60px;
+}
+.menu ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu ul li a{
+    font-family: $ff-main;
+    font-size: 18px;
+    color: $black-color !important;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding: 0px !important;
+}
+.menu ul li a:hover{
+    color: $primary-color !important;
+}
+.social_icons a{
+    font-size: 26px;
+    color: $white-color !important;
+    margin-left: 20px;
+}
+.social_icons a:hover{
+    color: $primary-color !important;
+}
+
+/* menu css end here */
+
+/* Banner css start here */
+.banner-indicators{
+    justify-content: flex-end !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+.banner-indicators .bi-button{
+    width: 50px !important;
+    height: 10px !important;
+    background: $secondry-color !important;
+    border: 1px solid $white-color !important;
+    opacity: 1 !important;
+}
+.banner-indicators .active{
+    background: $primary-color !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    display: none !important;
+}
+.banner-left, .banner-right{
+    width: 10% !important;
+}
+
+/* Banner css end here */
+
+/* about css start here */
+.about-section{
+    width: 100%;
+    min-height: 686px;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.about-back-img{
+    position: absolute;
+    right: -14%;
+    top: 35px;
+}
+
+.header{
+    margin-bottom: 50px !important;
+}
+.header h1{
+    font-family: $ff-header;
+    font-size: 36px !important;
+    text-align: center;
+}
+.header h4{
+    font-family: $ff-main;
+    font-size: 24px !important;
+    color: $white-color;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 1px !important;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.about-left-img{
+    width: 610px;
+    height: auto;
+    position: relative;
+}
+.img-border{
+    width: 100%;
+    height: auto;
+    
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+.img-border-div{
+    border: 2px solid $white-color;
+    height: 440px;
+}
+
+.about-box{
+    width: 608px;
+    height: auto;
+    background: $white-color;
+    box-shadow: 0 0 20px 10px #00000025;
+    padding: 30px;
+    position: absolute;
+    top: 80px;
+    right: -80%;
+}
+.about-box-line{
+    width: 150px;
+    height: 4px;
+    background-color: $secondry-color;
+}
+.about-box p{
+    font-family: $ff-main;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    padding: 31px 0 32px 0;
+    margin-bottom: 0;
+}
+.about-read-btn{
+    width: 174px;
+    height: 46px;
+    font-family: $ff-main;
+    font-size: 18px;
+    color: $black-color;
+    background: $white-color;
+    border: 2px solid $secondry-color;
+    outline: none !important;
+    transition: 200ms ease-in-out;
+}
+.about-read-btn:hover{
+    background: $secondry-color;
+    color: $primary-color;
+}
+/* about css end here */
+
+
+
+/* blog css start here */
+
+.blog-section{
+    padding: 50px 0;
+    background: $secondry-color;
+}
+.blog{
+    border: 2px solid $white-color;
+}
+.blog-section .header{
+    margin-bottom: 30px !important;
+}
+.blog-see-more{
+    text-align: end;
+    padding-bottom: 5px;
+}
+.blog-see-more a{
+    font-family: $ff-main;
+    color: $black-color;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.blog-see-more a:hover{
+    color: $primary-color;
+}
+.blog-content{
+    padding: 20px 21px 30px 21px;
+
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 284px;
+    line-height: 1.8em;
+}
+.blog-content span{
+    font-family: $ff-main;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 3px;
+    color: $primary-color;
+}
+.blog-content h4{
+    font-family: $ff-main;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: $black-color;
+    padding: 10px 0;
+}
+.blog-content p{
+    font-family: $ff-main;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: $black-color;
+    margin-bottom: 0;
+}
+
+.blog figure{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.blog figure figcaption{
+    position: absolute;
+    background: rgba($primary-color, .5);
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(110%);
+}
+.blog figure:hover figcaption{
+    transform: translateY(0%);
+}
+
+
+.blog figcaption .blog-button{
+    width: 174px;
+    height: 46px;
+    font-family: $ff-main;
+    font-size: 18px;
+    color: $white-color;
+    background: none;
+    border: 2px solid $white-color;
+    outline: none !important;
+    transition: 200ms ease-in-out;
+    
+}
+.blog figcaption .blog-button:hover{
+    background: $secondry-color !important;
+    color: $primary-color;
+}
+/* blog css end here */
+
+
+/* testimonial css start here */
+
+.testimonial-section{
+    padding: 50px 0;
+}
+.testimonial-header{
+    color: $primary-color !important;
+}
+
+
+  .testimonials-div {
+    // background: #fff;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .slider__nav {
+    width: 50px;
+    height: 10px;
+    margin: 40px 12px;
+    border-radius: 0%;
+    z-index: 10;
+    background-color: $secondry-color;
+    box-shadow: 0 0 0 0 $primary-color, 0 0 0 0 rgba(51, 51, 51, 0);
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .slider__nav:checked {
+    -webkit-animation: check 0.4s linear forwards;
+    animation: check 0.4s linear forwards;
+    background-color: $primary-color;
+  }
+  .slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+    left: 0%;
+  }
+  .slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+    left: -100%;
+  }
+  .slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+    left: -200%;
+  }
+  .slider__inner {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 300%;
+    height: auto;
+    -webkit-transition: left 0.4s;
+    transition: left 0.4s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+  }
+  .slider__contents {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+  }
+  .slider__contents img{
+    margin-bottom: 40px;
+  }
+  .slider__caption {
+    font-size: 24px;
+    color: $black-color;
+    font-family: $ff-main;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+  .slider__txt {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: $ff-main;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: $black-color;
+    // margin-top: -20px;
+    margin-bottom: 40px;
+  }
+  @keyframes check {
+    50% {
+      box-shadow: 0 0 0 10px $secondry-color, 0 0 0 20px $secondry-color;
+    }
+    100% {
+      box-shadow: 0 0 0 0 $secondry-color, 0 0 0 0 $secondry-color;
+    }
+  }
+  
+/* testimonial css end here */
+
+
+/* contact css start here */
+
+.contact-section{
+    padding: 50px 0 0 0;
+    background: $secondry-color;
+}
+.responsive-map iframe{
+    height: 320px;
+    width:100%;
+}
+.contact-right{
+    padding-left: 70px;
+}
+.contact-right .logo{
+    padding-bottom: 10px;
+}
+.contact-right ul{
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+.contact-right ul li{
+    padding-top: 20px;
+}
+.contact-right ul li a{
+    font-family: $ff-main;
+    color: $black-color;
+}
+.contact-right ul li:first-child a{
+    display: flex;
+}
+.contact-right ul li a:hover{
+    color: $primary-color;
+}
+.contact-right ul li a i{
+    font-size: 20px;
+    padding: 3px 10px 0 0;
+}
+.contact-right ul li a span{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer{
+    text-align: center;
+    border-top: 1px solid $black-color;
+    padding: 13px;
+}
+.footer p{
+    font-family: $ff-main;
+    font-size: 16px;
+    color: $black-color;
+    margin: 0;
+}
+/* contact css end here */
+
+
+
+
+/*-------------- Responsive css start here -----------*/
+@media only screen and (max-width: 991px) {
+    .top-header{
+        justify-content: space-between;
+    }
+    .logo-text h1{
+        font-size: 21px
+    }
+    .logo-text p{
+        font-size: 8px;
+    }
+    .menu {
+        height: auto;
+    }
+    .top-connect-text h5{
+        display: none;
+    }
+    .top-header>div{
+        width: 20%;
+    }
+    .top-header>div:first-child{
+        width: auto;
+    }
+    .top-connect{
+        width: auto;
+    }
+    .top-header>div:last-child{
+        width: 13%;
+    }
+    .about-box{
+        right: -20%;
+    }
+    .testimonials-div{
+        height: 500px;
+    }
+}
+
+
+
+@media(max-width: 768px) {
+    .container{
+        max-width: 90% !important;
+        margin: 0 5% !important;
+    }
+    .top-header{
+        // justify-content: flex-start;
+    }
+    .top-header>div{
+        width: auto;
+    }
+    .top-header>div:first-child{
+        width: 40%;
+    }
+    .logo-text{
+        display: none;
+    }
+    .top-connect{
+        width: 100%;
+    }
+    .top-header>div:last-child{
+        width: auto;
+    }
+}
+@media(max-width: 540px) {
+    .container{
+        max-width: 90% !important;
+        margin: 0 5% !important;
+    }
+    .top-header{
+        // justify-content: flex-start;
+    }
+    .top-header>div{
+        width: auto;
+    }
+    .top-header>div:first-child{
+        width: 40%;
+    }
+    .logo-text{
+        display: none;
+    }
+    .top-connect{
+        width: 100%;
+    }
+    .top-header>div:last-child{
+        width: auto;
+    }
+}
+

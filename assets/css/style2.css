@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+.ps-0{
+    padding-left: 0px !important;
+}
+.pe-0{
+    padding-left: 0px !important;
+}
+
+/* top header css start here */
+.top-header{
+    align-items: center;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Serif';
+}
+.logo-text{
+    margin-left: 10px;
+}
+.logo-text h1{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.logo-text p{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+.top-connect{
+    width: 248px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #1A1A1A;
+    border: 2px solid #EDCA82;
+    padding: 11px 18px 11px 20px;
+}
+.top-connect i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.top-connect-text p{
+    font-family: 'DM Serif Display';
+    font-size: 14px;
+    color: #1A1A1A;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.top-connect-text h5{
+    font-family: 'DM Serif Display';
+    font-size: 18px;
+    color: #1A1A1A;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.top-connect:hover{
+    color: #A41108;
+    border-color: #A41108;
+}
+.top-connect:hover p{
+    color: #A41108;
+}
+.top-connect:hover h5{
+    color: #A41108;
+}
+.whatsapp .top-connect{
+    width: 100%;
+}
+.whatsapp .top-connect:hover{
+    color: #4FCE5D;
+    border-color: #4FCE5D;
+}
+/* top header css end here */
+
+/* menu css start here */
+.menu{
+    background: #EDCA82;
+    height: 60px;
+}
+.menu ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.menu ul li a{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #1A1A1A !important;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding: 0px !important;
+}
+.social_icons a{
+    font-size: 26px;
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+/* menu css end here */
+
+/* Banner css start here */
+.banner-indicators{
+    justify-content: flex-end !important;
+}
+.banner-indicators .bi-button{
+    width: 50px !important;
+    height: 10px !important;
+    background: #EDCA82 !important;
+    border: 1px solid #ffffff !important;
+    opacity: 1 !important;
+}
+.banner-indicators .active{
+    background: #A41108 !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    display: none !important;
+}
+
+
+/* Banner css end here */
